@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.8.0/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.8.0/lib/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>app</h1>
+    <a href="/">check in</a> |
+    <a href="logs/index.html">view checkins</a>
+    <p>Latitude: <span id="latitude"></span>&deg;</p>
+    <p>Longitude: <span id="longitude"></span>&deg;</p>
+
+    <p id="ws">
+        The weather here is
+        <span id="summary"></span>
+            with a temperature of <span id="temperature"></span>&deg;C.
+        <br>
+        Air Quality: <span id="air_quality"></span>
+
+    </p>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
